@@ -1,0 +1,41 @@
+.main {
+	width: 100%;
+	background-color: #D0D0D0;
+	display:flex;
+	flex-flow: row wrap;
+	padding: 148px 5% 0 5%;
+	border: none; 
+	position: relative;
+	min-height: 100vh;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+	outline: none;
+}
+
+	a:hover {
+		color: rgb(146, 162, 171);
+		text-decoration: none;
+	}
+
+@media screen and (max-width: 644px)  {
+	.main{
+		padding: 100px 5% 0 5%;
+	}
+}
+
+@media screen and (max-width: 600px)  {
+	.main{
+		flex-flow: column wrap;
+		align-items: center;	
+	}
+}
+
+@media screen and (min-width: 966px) and (max-width: 1289px) {
+	.main__slider{
+		justify-content: center;
+	}
+}

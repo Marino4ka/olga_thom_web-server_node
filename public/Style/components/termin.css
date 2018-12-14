@@ -1,0 +1,61 @@
+.termin-table{
+	display: flex;
+	align-self: flex-start; 
+	flex-flow: row wrap;
+	margin-left: 80px;
+}
+	
+	.day{
+		width: 120px;
+		border-right: 1px solid #ddd;
+	}
+
+		.day__fr{
+			border-right: none;
+		}
+
+		.time{
+			width: 80px;
+			height: 40px;
+			border: 1px solid #ddd;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 10px 20px 0 20px;
+
+		}
+
+		.time__day-title{
+			height: 16px;
+			border: none;
+			margin-bottom: 0px; 
+			display: flex;
+			align-items: flex-start; 
+		}
+
+		.termin-link{
+			height: 60px;
+			display: flex;
+			justify-content: flex-end;
+			flex-flow: row wrap;
+			width: 200px;
+		}
+
+		.link-img{
+			width: 30%;
+			display: flex;
+			justify-content: flex-end;
+		}
+
+		.link-img img{
+			width: 100%;
+		}
+
+		.link-date{
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			width: 70%;
+			font-size: 18px;
+		}
+

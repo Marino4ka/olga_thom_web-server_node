@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Uber Mich</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/Style/all.css">
+</head>
+<body>
+
+	<section class="aside" id="aside">
+		<div class="aside-inner">
+			<div class="aside-close">
+				<img src="images/widgets/close.svg" onclick="toggleAside('hide')">
+			</div>
+			<div class="aside-list">
+				<li class="aside-list__item"><a href="/gesichtspflege">GESICHTSPFLEGE</a></li>
+				<li class="aside-list__item"><a href="/hand_und_fusspflege">HAND UND FUSSPFLEGE</a></li>
+				<li class="aside-list__item"><a href="/uber_mich">UBER MICH</a></li>
+				<li class="aside-list__item"><a href="/termin">termin</a></li>
+				<li class="aside-list__item"><a href="/landing">home</a></li>
+			</div>
+		</div>
+	</section>
+	<section class="aside-backdrop" id="aside-backdrop" onclick="toggleAside('hide')"></section>
+
+
+	<header class="header">
+		<div class="header__logo"><a href="/landing"><img src="Images/widgets/Logo.png"></a></div>
+		<img class="header__menu" src="images/widgets/menu.svg" onclick="toggleAside('show')"> 
+		<div class="nav">
+			<div class="nav__link"><a href="/gesichtspflege">GESICHTSPFLEGE</a></div>			
+			<div class="nav__link"><a href="/hand_und_fusspflege">HAND UND FUSSPFLEGE</a></div>			
+			<div class="nav__link"><a href="/uber_mich">UBER MICH</a></div>			
+			<div class="nav__link"><a href="/termin">termin</a></div>
+		</div>
+	</header>
+	<section class="main">
+		<div class="grid__item grid__item__img">
+			<div class="grid__img grid__img__chick2"></div>
+		</div>
+		<div class="main-text">
+			<div class="title title__main-text">uber mich</div>
+			<div class="main-text__text">
+				Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo aainventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+			</div>
+		</div>
+		<div class="btn-field">
+			<div class="btn btn__landing">weniger</div>
+		</div>
+
+		<div class="grid__item grid__item__mobile">
+			<div class="grid__img"></div>
+		</div>
+		<div class="main-text main-text__mobile">
+			<div class="title title__main-text">gesichtspflege</div>
+		</div>
+
+		<div class="grid__item grid__item__mobile">
+			<div class="grid__img grid__img__swill "></div>
+		</div>
+		<div class="main-text main-text__mobile">
+			<div class="title title__main-text">hand und fusspflege</div>
+		</div>
+
+		<div class="grid__item grid__item__mobile">
+			<div class="grid__img grid__img__appointment"></div>
+		</div>
+		<div class="main-text main-text__mobile">
+			<div class="title title__main-text">termin</div>
+		</div>	
+	</section>
+
+</body>
+
+<script type="text/javascript" src="/js/aside.js"></script>
+
+</html>

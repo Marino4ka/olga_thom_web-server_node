@@ -1,0 +1,53 @@
+.aside {
+	position: fixed;
+	width: 270px;
+	top: 0;
+	bottom: 0;
+	background-color: #fff;
+	z-index: 300;
+	transition: .3s ease-out;
+	right: -270px;
+}
+
+.aside-backdrop {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	z-index: 10;
+	background-color: rgba(0, 0, 0, .5);
+	display: none;
+}
+
+.aside-inner {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+	.aside-close {
+		width: 100%;
+		padding: 20px;
+		text-align: right;
+	}
+
+		.aside-close > img {
+			width: 30px;
+
+		}
+
+		.aside-list {
+
+		}
+
+			.aside-list__item {
+				text-transform: uppercase;
+				text-align: center;
+				list-style: none;
+				font-size: 20px;
+				padding: 15px;
+				border-bottom: 1px solid #eee;
+				color: rgba(0, 0, 0, .74);
+
+			}
+

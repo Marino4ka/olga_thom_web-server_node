@@ -1,0 +1,73 @@
+.grid {
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	border: none;
+}
+
+	
+.grid__item {
+	width: 250px;
+}
+
+
+.grid__img {
+	width: 100%;
+	height: 475px;
+	background-image: url('../../images/widgets/chick1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+	.grid__img__swill {
+		background-image: url('../../images/widgets/swill.png');
+	} 
+	.grid__img__chick2 {
+		background-image: url('../../images/widgets/chick2.jpg');
+	} 
+	.grid__img__appointment {
+		background-image: url('../../images/widgets/appointment.jpg');
+	} 
+
+
+.grid__landingM{
+
+	}
+
+.grid__item__mobile {
+		display: none;
+	}
+
+
+
+@media screen and (max-width: 1300px)  {
+	.grid__item__landing {
+		margin: 0 20px 0 20px;
+}
+
+@media screen and (min-width: 966px) and (max-width: 1289px) {
+	.grid__landingM{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px ) {
+	
+	.grid__img {
+		width: 250px;
+		height: calc(100vh - 100px - 76px);
+		overflow: hidden;
+	}
+
+
+	.grid__item__mobile {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 500px)  {
+	.grid__item{
+		margin: 0;
+	}
+}	

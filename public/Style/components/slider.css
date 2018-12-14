@@ -1,0 +1,75 @@
+
+.slider__field{
+	display: none;
+}
+
+.slide__title{
+	display: none;
+}
+
+@media screen and (min-width: 966px) and (max-width: 1289px) {
+	
+	.slider-arrow {
+	width: 20px;
+	height: 25px;
+	position: absolute;
+	top: calc(50% - 10px); 
+	z-index: 200;
+	cursor: pointer;
+	}
+
+		.slider-arrow img {
+			width: 100%;
+		}
+
+			.slider-arrow_left {
+				left: 25px;
+			}
+
+			.slider-arrow_right {
+				right: 25px;
+				transform: rotate(180deg);
+			}
+
+	.slider__field{
+		width: 790px;
+		display: flex;
+		overflow: hidden;
+	}
+
+	.slider {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.slider__slide {
+		width: 250px;
+		margin: 0 10px 0 10px;
+	}
+
+	.slider__img {
+		width: 100%;
+		height: 475px;
+		background-image: url('../../images/widgets/chick1.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+
+	}
+
+	.slider__img2 {
+		background-image: url('../../images/widgets/swill.png');
+	} 
+	.slider__img3 {
+		background-image: url('../../images/widgets/chick2.jpg');
+	} 
+	.slider__img4 {
+		background-image: url('../../images/widgets/appointment.jpg');
+	} 
+
+	.slide__title{
+	display: flex;
+}
+
+}
