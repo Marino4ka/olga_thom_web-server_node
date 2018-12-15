@@ -9,7 +9,7 @@ app.set('view engine', 'html');
 app.engine('html', hbs.__express);
 
 
-app.get("/landing",(req, res) => {
+app.get("/",(req, res) => {
 	res.render("landing");
 });
 
