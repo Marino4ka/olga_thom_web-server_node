@@ -7,33 +7,10 @@
 </head>
 <body>
 	
-	<section class="aside" id="aside">
-		<div class="aside-inner">
-			<div class="aside-close">
-				<img src="images/widgets/close.svg" onclick="toggleAside('hide')">
-			</div>
-			<div class="aside-list">
-				<li class="aside-list__item"><a href="/gesichtspflege">GESICHTSPFLEGE</a></li>
-				<li class="aside-list__item"><a href="/hand_und_fusspflege">HAND UND FUSSPFLEGE</a></li>
-				<li class="aside-list__item"><a href="/uber_mich">UBER MICH</a></li>
-				<li class="aside-list__item"><a href="/termin">termin</a></li>
-				<li class="aside-list__item"><a href="/landing">home</a></li>
-			</div>
-		</div>
-	</section>
-	<section class="aside-backdrop" id="aside-backdrop" onclick="toggleAside('hide')"></section>
+	{{> aside}}
 	
-
-	<header class="header">
-		<div class="header__logo"><a href="/landing"><img src="Images/widgets/Logo.png"></a></div>
-		<img class="header__menu" src="images/widgets/menu.svg" onclick="toggleAside('show')"> 
-		<div class="nav">
-			<div class="nav__link"><a href="/gesichtspflege">GESICHTSPFLEGE</a></div>			
-			<div class="nav__link"><a href="/hand_und_fusspflege">HAND UND FUSSPFLEGE</a></div>			
-			<div class="nav__link"><a href="/uber_mich">UBER MICH</a></div>			
-			<div class="nav__link"><a href="/termin">termin</a></div>
-		</div>
-	</header>
+	{{> header}}
+	
 	<section class="main">
 		<div class="grid__item grid__item__img">
 			<div class="grid__img grid__img__appointment"></div>
