@@ -1,13 +1,36 @@
 .main {
 	width: 100%;
 	background-color: #D0D0D0;
-	display:flex;
-	flex-flow: row wrap;
+	display: flex;
+	flex-flow: column wrap;
 	padding: 148px 5% 0 5%;
 	border: none; 
-	position: relative;
+	/*position: relative;*/
 	min-height: 100vh;
 }
+
+.main_img {
+	width: 250px;
+	height: 475px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+	float: left;
+	background-size: cover;
+	background-image: url(../../images/widgets/chick1.png);
+	background-repeat: no-repeat;
+}
+
+	.main_img2{
+		background-image: url(../../images/widgets/swill.png);	
+	}
+
+	.main_img3{
+		background-image: url(../../images/widgets/chick2.jpg);	
+	}
+
+	.main_img4{
+		background-image: url(../../images/widgets/appointment.jpg);
+	}
 
 a{
 	text-decoration: none;
@@ -21,21 +44,31 @@ a{
 		text-decoration: none;
 	}
 
-@media screen and (max-width: 644px)  {
+@media screen and (max-width: 700px)  {
 	.main{
 		padding: 100px 5% 0 5%;
+		align-items: center;
+	}
+	.main_img{
+		margin-right: 40px;
+		margin-bottom: 20px;
 	}
 }
 
-@media screen and (max-width: 600px)  {
-	.main{
+@media screen and (max-width: 600px) {
+	.main_sizeM{
+		display: flex;
 		flex-flow: column wrap;
-		align-items: center;	
+		align-items: center;
+	}
+	.main_img{
+		float: none;
+		margin-right: 0;
 	}
 }
 
-@media screen and (min-width: 966px) and (max-width: 1289px) {
-	.main__slider{
-		justify-content: center;
-	}
-}
+
+
+
+
+

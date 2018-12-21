@@ -14,54 +14,30 @@
 		<img class="header__menu" src="images/widgets/menu.svg" onclick="toggleAside('show')"> 
 	</header>
 
-	<section class="main main__slider">
-		<div class="grid grid__landingM">
-			<div class="grid__item grid__item__landing">
-				<div class="grid__img"></div>
-				<div class="title title__grid"><a href="/gesichtspflege">GESICHTSPFLEGE</a></div>
+	<section class="main">
+		<div class="grid">
+			<div class="grid_item">
+				<div class="grid_img"></div>
+				<div class="grid_title"><h1><a href="/gesichtspflege">GESICHTSPFLEGE</a></h1></div>
 			</div>
-			<div class="grid__item grid__item__landing">
-				<div class="grid__img grid__img__swill"></div>
-				<div class="title title__grid"><a href="/hand_und_fusspflege">HAND UND FUSSPFLEGE</a></div>
+			<div class="grid_item">
+				<div class="grid_img grid_img2"></div>
+				<div class="grid_title"><h1><a href="/hand_und_fusspflege">HAND UND FUSSPFLEGE</a></h1></div>
 			</div>
-			<div class="grid__item grid__item__landing">
-				<div class="grid__img grid__img__chick2"></div>
-				<div class="title title__grid"><a href="/uber_mich">UBER MICH</a></div>
+			<div class="grid_item">
+				<div class="grid_img grid_img3"></div>
+				<div class="grid_title"><h1><a href="/uber_mich">UBER MICH</a></h1></div>
 			</div>
-			<div class="grid__item grid__item__landing">
-				<div class="grid__img grid__img__appointment"></div>
-				<div class="title title__grid"><a href="/termin">termin</a></div>
+			<div class="grid_item">
+				<div class="grid_img main_img4"></div>
+				<div class="grid_title"><h1><a href="/termin">termin</a></h1></div>
 			</div>				
 		</div>
 
-
-
-		<div class="slider-arrow slider-arrow_left" onclick="goBack();">
-			<img src="images/widgets/arrow.svg">
-		</div>
-		<div class="slider-arrow slider-arrow_right" onclick="goNext();">
-			<img src="images/widgets/arrow.svg">
-		</div>
-
-		<div class="slider__field">
-			<div class="slider" id="slider">
-				<div class="slider__slide">
-					<div class="slider__img"></div>
-					<div class="title title__grid slide__title">GESICHTSPFLEGE</div>
-				</div>
-				<div class="slider__slide">
-					<div class="slider__img slider__img2"></div>
-					<div class="title title__grid slide__title">HAND UND FUSSPFLEGE</div>
-				</div>
-				<div class="slider__slide">
-					<div class="slider__img slider__img3"></div>
-					<div class="title title__grid slide__title">UBERMICH</div>
-				</div>
-				<div class="slider__slide">
-					<div class="slider__img slider__img4"></div>
-					<div class="title title__grid slide__title">termin</div>
-				</div>
-			</div>
+		<div class="slider">
+    		<div class="buttons" id="prev"></div>
+    		<div id="result"></div>
+			<div class="buttons buttons__next" id="next"></div>
 		</div>
 
 	</section>
@@ -69,6 +45,6 @@
 </body>
 
 <script type="text/javascript" src="/js/aside.js"></script>
-<script type="text/javascript" src="/js/slider.js"></script>
+<script type="text/javascript" src="js/circularSliderDiv.js"></script>
 
 </html>
