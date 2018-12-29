@@ -9,18 +9,8 @@
 	cursor: pointer;
 }
 
-		.nav__link:hover {
-			color: rgb(146, 162, 171);
-		}
 
-@media screen and (max-width: 1300px)  {
-	.nav {
-		margin-left: 40px;
-	}
-}
-
-
-@media screen and (max-width: 1120px)  {
+@media screen and (max-width: 1200px)  {
 	.nav {
 		display: none;
 	}
