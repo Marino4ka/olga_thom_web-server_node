@@ -14,18 +14,13 @@
 
 @media screen and (min-width: 900px) and (max-width: 1200px) {
 .slider{
-	/*width: 100%;*/
 	display: flex;
 	align-self: center;
 	align-items: center;
-	/*justify-content: space-around;*/
 }
 
 #result {
-	/*width: 96.5%;*/
 	display: flex;
-	flex-flow: row wrap; 
-	/*justify-content: space-between;*/
 }
 
 .sliderImg{
