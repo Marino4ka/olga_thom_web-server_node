@@ -27,12 +27,11 @@
 
 	.aside-close {
 		width: 100%;
-		padding: 20px;
 		text-align: right;
 	}
 
 		.aside-close > img {
-			width: 30px;
+			width: 60px;
 
 		}
 

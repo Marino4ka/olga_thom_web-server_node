@@ -1,4 +1,5 @@
 var imagesPathsArr = ["images/widgets/chick1.png", "images/widgets/swill.png", "images/widgets/chick2.jpg", "images/widgets/appointment.jpg",];
+// var imagesTitle = ["Gesichtspflege", "Hand und Fusspflege", "Uber mich", "Termin"];
 const slidersLength = 3;
 var currentSlides = [];
 

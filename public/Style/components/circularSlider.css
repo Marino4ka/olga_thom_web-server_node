@@ -39,8 +39,8 @@
 
 .buttons {
 	display: block;
-	width: 15px;
-	height: 20px;
+	width: 60px;
+	height: 60px;
 	background-size: cover;
 	background-image: url(../../images/widgets/arrow.svg);
 	background-repeat: no-repeat;

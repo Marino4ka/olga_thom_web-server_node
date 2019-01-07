@@ -3,7 +3,7 @@
 	background-color: #D0D0D0;
 	display: flex;
 	flex-flow: column wrap;
-	padding: 120px 5% 0 5%;
+	padding: 80px 5% 0 5%;
 	border: none; 
 	/*position: relative;*/
 	min-height: 100vh;
@@ -43,7 +43,7 @@
 
 @media screen and (max-width: 700px)  {
 	.main{
-		padding: 100px 5% 0 5%;
+		padding: 44px 5% 0 5%;
 		align-items: center;
 	}
 }
