@@ -34,6 +34,8 @@
 
 .buttons {
 	display: block;
+	position: relative;
+	bottom: 40px;
 	width: 60px;
 	height: 60px;
 	background-size: cover;

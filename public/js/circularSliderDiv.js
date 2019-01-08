@@ -1,5 +1,6 @@
 var imagesPathsArr = ["images/widgets/chick1.png", "images/widgets/swill.png", "images/widgets/chick2.jpg", "images/widgets/appointment.jpg",];
 var imagesTitle = ["Gesichtspflege", "Hand und Fusspflege", "Uber mich", "Termin"];
+var linkList = ["/gesichtspflege", "/hand_und_fusspflege", "/uber_mich", "/termin"];
 const slidersLength = 3;
 var currentSlides = [];
 
@@ -45,16 +46,33 @@ function createSliderItem(index) {
     // create wrapper div
     currentSlides[index] = document.createElement("div");
     currentSlides[index].classList.add("grid_item");
+    
+    // create link img
+    var linkImg = document.createElement("a");
+    linkImg.href = linkList[index];
     // create img div
     var sliderImg = document.createElement("div");
     sliderImg.classList.add("grid_img");
     sliderImg.style.backgroundImage = "url(" + (imagesPathsArr[index]) + ")";
+    
+    // place img div inside link
+    linkImg.appendChild(sliderImg)
+    
     // create img title div
     var sliderImgTitle = document.createElement("div");
     sliderImgTitle.classList.add("grid_title");
-    sliderImgTitle.innerHTML = imagesTitle[index];
-    // place img and title inside wrapper div
-    currentSlides[index].appendChild(sliderImg);
+    
+    // create link
+    var link = document.createElement("a");
+    link.classList.add("slider_text")
+    link.href = linkList[index];
+    link.innerHTML = imagesTitle[index];
+    
+    // place link inside div
+    sliderImgTitle.appendChild(link);
+    
+    // place link img and title div inside wrapper div
+    currentSlides[index].appendChild(linkImg);
     currentSlides[index].appendChild(sliderImgTitle);
     return currentSlides[index];
 };
