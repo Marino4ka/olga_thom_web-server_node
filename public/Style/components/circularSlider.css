@@ -38,13 +38,12 @@
 	bottom: 40px;
 	width: 60px;
 	height: 60px;
-	background-size: cover;
-	background-image: url(../../images/widgets/arrow.svg);
+	background-image: url(../../images/widgets/arrow-next.svg);
 	background-repeat: no-repeat;
 }
 
 
-.buttons__next {
-	background-image: url(../../images/widgets/arrow-next.svg);
+.buttons__prev {
+	transform: rotate(180deg);
 }
 
